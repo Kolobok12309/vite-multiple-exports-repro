@@ -1,0 +1,16 @@
+{
+  "name": "shared-front",
+  "version": "1.0.0",
+  "private": true,
+  "exports": {
+    "./lib/*": [
+      "./lib/*",
+      "./lib/*.json",
+      "./lib/*.ts",
+      "./lib/*.js",
+      "./lib/*/index.json",
+      "./lib/*/index.ts",
+      "./lib/*/index.js"
+    ]
+  }
+}
